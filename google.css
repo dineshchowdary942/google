@@ -1,0 +1,117 @@
+/* Body styling */
+body {
+    margin:0; height:60vh; display:flex; flex-direction:column; justify-content:center; align-items:center;
+    font-family: 'Times New Roman', sans-serif;
+    background-color: #ffffff;
+    color: #202124;
+}
+
+/* Google logo container */
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+/* Search bar container */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 5px 15px;
+    box-shadow: none;
+    margin-bottom: 24px;
+}
+
+.search-container:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.search-container input[type="text"] {
+    flex: 1;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+/* Top navigation bar styles */
+.top-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: white; /* Optional: keeps it clean */
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #202124;
+    padding: 4px 6px;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+
+.apps-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+/* Icon buttons (mic & lens) */
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* Buttons under search bar */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: #777;
+    font-size: 14px;
+}
+
+footer address {
+    font-style: normal;
+    margin-top: 5px;
+}
