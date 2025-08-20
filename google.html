@@ -4,18 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google_clo</title>
-    <link rel="icon" href="Google_logo.png">
+    <link rel="icon" href="Google_log.png">
     <link rel="stylesheet" href="google.css">
 </head>
 <body>
     <div class="top-nav">
-        <a href="#">About</a>
-        <a href="#">Gmail</a>
-        <a href="#">Photos</a>
+        <div class="nav-left">
+            <button> <a href="https://doodles.google/">About</a></button>
+            <button> <a href="https://store.google.com/?hl=en-IN">Store</a></button>
+        </div>
+        <div class="nav-right">
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="https://labs.google.com/search?source=hp&authuser=0" class="icon-link" title="Labs">
+                <img src="Labs_Icon.png" alt="Labs Icon" width="24" height="24">
+            </a>
+
+            <div class="apps-dropdown">
+                <button class="icon-button" title="Google Apps">
+                    <img src="apps_icon.png" alt="Apps Icon" width="24" height="24">
+                </button>
+                <div class="apps-menu">
+                    <a href="https://mail.google.com/">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail">
+                        <span>Gmail</span>
+                    </a>
+                    <a href="https://drive.google.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="Drive">
+                        <span>Drive</span>
+                    </a>
+                    <a href="https://www.youtube.com/">
+                        <img src="YouTube.png" alt="YouTube">
+                        <span>YouTube</span>
+                    </a>
+                    <a href="https://maps.google.com/">
+                        <img src="https://maps.google.com/favicon.ico" alt="Maps">
+                        <span>Maps</span>
+                    </a>
+                    <a href="https://photos.google.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/photos_48dp.png" alt="Photos">
+                        <span>Photos</span>
+                    </a>
+                    <a href="https://calendar.google.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/calendar_48dp.png" alt="Calendar">
+                        <span>Calendar</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="logo">
-        <img src="Google_logg.png" alt="Google Logo"/>
+        <img src="Google.png" alt="Google Logo"/>
     </div>
     <div class="search-container" title="search by text">
         <label for="search">Search</label>
@@ -34,8 +74,12 @@
     </div>
 
     <footer>
-        <p>India</p>
-        <p>Google clone ©</p>
+        <div class="buttons">
+            <button>India</button>
+            <button> <a href="#"> Advertising</a></button> 
+            <button> <a href="https://business.google.com/in/business-profile/?ppsrc=GPDA2"> Business</a></button>
+            <button> <a href="#"> How search works</a></button>
+        </div>
     </footer>
 </body>
 </html>
