@@ -96,10 +96,13 @@ body {
     width: 200px;
     padding: 10px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-    display: grid;
+    /*display: grid;*/
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     z-index: 999;
+}
+.apps-menu.active {
+    display: grid;
 }
 
 .apps-dropdown:hover .apps-menu {
