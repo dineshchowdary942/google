@@ -1,86 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google_clo</title>
-    <link rel="icon" href="Google_log.png">
-    <link rel="stylesheet" href="google.css">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Google clo</title>
+    <link rel="icon" href="Google_log.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="google.css"/>
 </head>
 <body>
     <div class="top-nav">
         <div class="nav-left">
-            <button> <a href="https://doodles.google/">About</a></button>
-            <button> <a href="https://store.google.com/?hl=en-IN">Store</a></button>
+            <a href="https://doodles.google.com">About</a>
+            <a href="https://store.google.com">Store</a>
         </div>
         <div class="nav-right">
             <a href="#">Gmail</a>
             <a href="#">Images</a>
-            <a href="https://labs.google.com/search?source=hp&authuser=0" class="icon-link" title="Labs">
-                <img src="Labs_Icon.png" alt="Labs Icon" width="24" height="24">
+            <a href="https://labs.google.com/search" class="icon-link" title="Labs">
+                <img src="Labs_Icon.png" alt="Labs Icon" />
             </a>
             <div class="apps-dropdown">
                 <button class="icon-button" title="Google Apps">
-                    <img src="apps_icon.png" alt="Apps Icon" width="24" height="24">
+                    <img src="apps_icon.png" alt="Apps Icon"/>
                 </button>
                 <div class="apps-menu">
-                    <a href="https://mail.google.com/">
-                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail">
+                    <a href="https://mail.com/">
+                        <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail"/>
                         <span>Gmail</span>
                     </a>
-                    <a href="https://drive.google.com/">
-                        <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="Drive">
+                    <a href="https://drive.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="Drive"/>
                         <span>Drive</span>
                     </a>
-                    <a href="https://www.youtube.com/">
-                        <img src="YouTube.png" alt="YouTube">
+                    <a href="#">
+                        <img src="YouTube.png" alt="YouTube"/>
                         <span>YouTube</span>
                     </a>
                     <a href="https://maps.google.com/">
-                        <img src="maps_logo.png" alt="Maps">
+                        <img src="maps_logo.png" alt="Maps"/>
                         <span>Maps</span>
                     </a>
-                    <a href="https://photos.google.com/">
-                        <img src="https://ssl.gstatic.com/images/branding/product/1x/photos_48dp.png" alt="Photos">
+                    <a href="https://google.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/photos_48dp.png" alt="Photos"/>
                         <span>Photos</span>
                     </a>
-                    <a href="https://calendar.google.com/">
-                        <img src="https://ssl.gstatic.com/images/branding/product/1x/calendar_48dp.png" alt="Calendar">
+                    <a href="https://calendar.com/">
+                        <img src="https://ssl.gstatic.com/images/branding/product/1x/calendar_48dp.png" alt="Calendar"/>
                         <span>Calendar</span>
                     </a>
                 </div>
             </div>
             <a href="https://chatgpt.com/" class="icon-link" title="Account">
-                <img src="account.png" alt="Labs Icon" width="24" height="24">
+                <img src="account.png" alt="Account Icon"/>
             </a>
         </div>
     </div>
 
     <div class="logo">
-        <img src="Google.png" alt="Google Logo"/>
+        <img src="Google_ori.png" alt="Google Logo"/>
     </div>
-    <div class="search-container" title="search by text">
-        <label for="search">Search</label>
-        <input type="text" id="search" placeholder="Search engine"/>
-        <button class="icon-button" title="search by voice">
-            <img src="google-mic.png" alt="mic" height="24" width="24">
-        </button>
-        <button class="icon-button" title="search by image">
-            <img src="lens.png" alt="cam" height="24" width="24">
-        </button>
-    </div>    
+
+    <div class="search-container" title="Search by text">
+        <input type="text" id="search" placeholder="Search Google or type a URL"/>
+        <div class="icons">
+            <a href="#"><img src="google-mic.png" alt="mic"/></a>
+            <img src="lens.png" alt="lens"/>
+        </div>
+    </div>
 
     <div class="buttons">
-        <button>Google Search</button>
-        <button>Clone web</button>    
+        <button>Search by URL</button>
+        <button>Clone Web</button>
+    </div>
+
+    <!-- Bookmarks Section -->
+    <div class="bookmarks">
+
+        <div class="bookmark-item">
+            <a href="#" title="YouTube">
+                <img src="YouTube.png" alt="YouTube" />
+                <span>YouTube</span>
+            </a>
+            <div class="bookmark-menu">
+                <button class="menu-button" aria-label="Menu" tabindex="0">⋮</button>
+                <div class="dropdown-content">
+                    <a href="#">Open</a>
+                    <a href="#">Remove</a>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bookmark-item">
+            <a href="https://mail.com" title="Gmail">
+                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/gmail.ico" alt="Gmail" />
+                <span>Gmail</span>
+            </a>
+            <div class="bookmark-menu">
+                <button class="menu-button" aria-label="Menu" tabindex="0">⋮</button>
+                <div class="dropdown-content">
+                    <a href="https://mail.com">Open</a>
+                    <a href="#">Remove</a>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bookmark-item">
+            <a href="https://maps.google.com" title="Maps">
+                <img src="maps_logo.png" alt="Maps" />
+                <span>Maps</span>
+            </a>
+            <div class="bookmark-menu">
+                <button class="menu-button" aria-label="Menu" tabindex="0">⋮</button>
+                <div class="dropdown-content">
+                    <a href="https://maps.google.com">Open</a>
+                    <a href="#">Remove</a>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bookmark-item">
+            <a href="https://drive.com" title="Drive">
+                <img src="https://ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png" alt="Drive" />
+                <span>Drive</span>
+            </a>
+            <div class="bookmark-menu">
+                <button class="menu-button" aria-label="Menu" tabindex="0">⋮</button>
+                <div class="dropdown-content">
+                    <a href="https://drive.com">Open</a>
+                    <a href="#">Remove</a>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bookmark-item">
+            <a href="https://gemini.google.com/app" title="Gemini AI">
+                <img src="Gemini.png" alt="AI" />
+                <span>Gemini</span>
+            </a>
+            <div class="bookmark-menu">
+                <button class="menu-button" aria-label="Menu" tabindex="0">⋮</button>
+                <div class="dropdown-content">
+                    <a href="https://gemini.google.com/app">Open</a>
+                    <a href="#">Remove</a>
+                    <a href="#">Details</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer>
-        <div class="buttons">
-            <button>India</button>
-            <button> <a href="#"> Advertising</a></button> 
-            <button> <a href="https://business.google.com/in/business-profile/?ppsrc=GPDA2"> Business</a></button>
-            <button> <a href="#"> How search works</a></button>
+        <div class="footer-top">India</div>
+        <div class="footer-bot">
+            <a href="#">Advertising</a>
+            <a href="https://business.google.com/in/business-profile/?ppsrc=GPDA2">Business</a>
+            <a href="#">How Search works</a>
         </div>
     </footer>
 </body>
