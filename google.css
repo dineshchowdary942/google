@@ -16,13 +16,12 @@ body {
     margin-bottom: 20px;
 }
 
-/* Search Bar */
 .search-container {
     display: flex;
     align-items: center;
     width: 100%;
     max-width: 582px;
-    height: 44px;
+    height: 40px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     padding: 0 14px;
@@ -57,7 +56,6 @@ body {
     background-color: transparent;
 }
 
-/* Bookmarks Section */
 .bookmarks {
     display: flex;
     justify-content: center;
@@ -98,7 +96,6 @@ body {
     margin-bottom: 6px;
 }
 
-/* Menu Button (⋮) */
 .bookmark-menu {
     position: absolute;
     top: 0;
@@ -116,7 +113,6 @@ body {
     color: #5f6368;
 }
 
-/* Dropdown Menu */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -140,14 +136,11 @@ body {
 .dropdown-content a:hover {
     background-color: #f1f3f4;
 }
-
-/* Show dropdown on hover or focus */
 .bookmark-menu:hover .dropdown-content,
 .bookmark-menu:focus-within .dropdown-content {
     display: block;
 }
 
-/* Top Navigation */
 .top-nav {
     position: absolute;
     top: 0;
