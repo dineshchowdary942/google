@@ -103,7 +103,7 @@ body {
 }
 .apps-menu.active {
     display: grid;
-}
+}/*used for displaying grid*/
 
 .apps-dropdown:hover .apps-menu {
     display: grid;
